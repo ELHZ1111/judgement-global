@@ -109,6 +109,17 @@
       margin-top: 12px;
       position: relative;
     }
+
+    /* footer link style: underline privacy link on mobile too */
+    footer a {
+      color: inherit;
+      text-decoration: underline;
+    }
+    footer a:hover,
+    footer a:focus {
+      text-decoration: underline;
+    }
+
     @media (max-width: 700px) {
       .statue-center-bg {
         width: 92vw;
@@ -160,7 +171,7 @@
       </a>
     </div>
     <footer>
-      &copy; 2025 Judgement. All rights reserved.
+      &copy; 2025 Judgement. All rights reserved. — <a href="privacy.html">Privacy Policy</a>
     </footer>
   </div>
 </body>

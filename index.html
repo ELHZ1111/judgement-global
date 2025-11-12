@@ -227,6 +227,17 @@
       margin-top: 30px;
       flex-shrink: 0;
     }
+
+    /* footer link style: underline privacy link so it matches request */
+    footer a {
+      color: inherit;
+      text-decoration: underline;
+    }
+    footer a:hover,
+    footer a:focus {
+      text-decoration: underline;
+    }
+
     @media (max-width: 700px) {
       body {
         min-height: 100vh;
@@ -349,7 +360,7 @@
     </div>
   </div>
   <footer>
-    &copy; 2025 Judgement. All rights reserved.
+    &copy; 2025 Judgement. All rights reserved. — <a href="privacy.html">Privacy Policy</a>
   </footer>
   <script src="js/leaderboard.js"></script>
 </body>
